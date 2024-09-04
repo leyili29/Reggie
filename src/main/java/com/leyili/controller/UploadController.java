@@ -23,8 +23,6 @@ import java.util.UUID;
 @RequestMapping("/common")
 public class UploadController {
 
-    @Autowired
-    private AliOSSUtils aliOSSUtils;
 
     @PostMapping("/upload")
     public Result upload(MultipartFile file) {
